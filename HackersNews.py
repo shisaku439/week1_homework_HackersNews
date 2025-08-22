@@ -12,7 +12,7 @@ def get_top_story_id_list(max_item=500):
     Args:
         max_item(int): 取得する記事の数（最大500）
     Returns:
-        list:トップページに表示されるidのリスト
+        list:トップページに表示されるidのリストj
     """
 
     res = requests.get(TOPSTORIES_URL).json()
